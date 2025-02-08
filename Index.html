@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Bible</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        #sidebar {
+            width: 250px;
+            background: #222;
+            color: white;
+            height: 100vh;
+            padding: 20px;
+            position: fixed;
+        }
+        #sidebar a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 10px 0;
+            border-bottom: 1px solid #444;
+        }
+        #content {
+            margin-left: 270px;
+            padding: 20px;
+            width: 100%;
+        }
+        .section {
+            display: none;
+        }
+        .section:target {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="sidebar">
+        <h2>Story Bible</h2>
+        <a href="#chapters">Chapters</a>
+        <a href="#characters">Characters</a>
+        <a href="#worldbuilding">Worldbuilding</a>
+        <a href="#themes">Themes & Motifs</a>
+        <a href="#notes">Notes & References</a>
+    </div>
+
+    <div id="content">
+        <div id="chapters" class="section">
+            <h2>Chapters</h2>
+            <p>Insert chapter summaries here.</p>
+        </div>
+
+        <div id="characters" class="section">
+            <h2>Characters</h2>
+            <p>Insert character bios here.</p>
+        </div>
+
+        <div id="worldbuilding" class="section">
+            <h2>Worldbuilding</h2>
+            <ul>
+                <li><a href="#geography">Geography</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#societies">Societies</a></li>
+                <li><a href="#magic">Magic & Technology</a></li>
+                <li><a href="#religion">Religion & Mythology</a></li>
+                <li><a href="#locations">Key Locations</a></li>
+            </ul>
+        </div>
+
+        <div id="geography" class="section">
+            <h2>Geography</h2>
+            <p>Insert geographical details here.</p>
+        </div>
+
+        <div id="history" class="section">
+            <h2>History</h2>
+            <p>Insert historical events here.</p>
+        </div>
+
+        <div id="timeline" class="section">
+            <h2>Timeline</h2>
+            <p>Insert timeline details here.</p>
+        </div>
+
+        <div id="societies" class="section">
+            <h2>Societies</h2>
+            <p>Insert societal structures here.</p>
+        </div>
+
+        <div id="magic" class="section">
+            <h2>Magic & Technology</h2>
+            <p>Insert magic system and technological advancements here.</p>
+        </div>
+
+        <div id="religion" class="section">
+            <h2>Religion & Mythology</h2>
+            <p>Insert religious beliefs and mythology here.</p>
+        </div>
+
+        <div id="locations" class="section">
+            <h2>Key Locations</h2>
+            <p>Insert key locations here.</p>
+        </div>
+
+        <div id="themes" class="section">
+            <h2>Themes & Motifs</h2>
+            <p>Insert thematic discussions here.</p>
+        </div>
+
+        <div id="notes" class="section">
+            <h2>Notes & References</h2>
+            <p>Insert research notes and references here.</p>
+        </div>
+    </div>
+
+</body>
+</html>
